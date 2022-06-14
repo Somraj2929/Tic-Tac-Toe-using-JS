@@ -103,7 +103,7 @@ const restart = () => {
     });
     text.innerText = `Play`;
     strategy.innerText = ``;
-  }, 1000);
+  }, 2000);
 };
 restartBtn.addEventListener("click", restart);
 restart();
